@@ -11,7 +11,7 @@ def histogram(series):
     plt.xlabel('Величина')
     plt.ylabel('Частота')
     plt.title('Гистограмма')
-    plt.xticks(keys)
+    plt.xticks(keys, rotation=45)
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.show()
 
@@ -40,7 +40,7 @@ def function_distribution(series):
         freq.append(s / n)
 
     plt.step(keys, freq, where='post', color='blue')
-    plt.xticks(keys)
+    plt.xticks(keys, rotation=45)
     plt.xlabel('Величина')
     plt.ylabel('F*(x)')
     plt.title('Выборочная функция распределения')
