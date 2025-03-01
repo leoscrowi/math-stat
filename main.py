@@ -81,4 +81,4 @@ show_info(series1)
 # Выборка температур взята с 1825-2024 год (т.к. не все 2025 есть)
 # индексация колонок идет с 0
 series2 = parse_data('data', 0)
-# show_info(series2)
+show_info(series2)
