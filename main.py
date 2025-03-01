@@ -72,6 +72,8 @@ def show_info(series):
     print(f"Исправленное СКО: {sample_standard_deviation(sample_variance)}")
     print(f"Мода: {values.mode(series)} ")
 
+    print("Итервалы ", len(series))
+
 
 series1 = get_variation_series('text.txt')
 show_info(series1)
