@@ -13,6 +13,7 @@ def population_variance(series, sample_mean, n):
     ans = 0
     for key in series.keys():
         ans += (sample_mean - key)**2 * series[key]
+    print("DISP X*N ", ans)
     return ans / n
 
 # Исправленная дисперсия
