@@ -39,11 +39,22 @@ def parse_data(data_path, column):
             interval = math.floor(v)
             bins[interval].append(v)
 
-        series = {sum(v_list) / len(v_list): len(v_list) for v_list in bins.values() if v_list}
+        intervals = [(key, key + 1) for key in sorted(bins.keys())]
+
+        series = {(lower + upper) / 2: len(bins[lower]) for lower, upper in intervals if bins[lower]}
+
+        print("Границы интервалов:")
+        for lower, upper in intervals:
+            print(f"[{lower}, {upper})")
+
+        print("\nРаспределение значений по интервалам:")
+        for mid, count in series.items():
+            print(f"Середина интервала: {mid}, Количество значений: {count}")
 
         return series
     except Exception as e:
         print(e)
+
 
 def show_info(series):
     n = sum(series.values())
@@ -62,11 +73,10 @@ def show_info(series):
     print(f"Мода: {values.mode(series)} ")
 
 
-
 series1 = get_variation_series('text.txt')
 show_info(series1)
 
 # Выборка температур взята с 1825-2024 год (т.к. не все 2025 есть)
 # индексация колонок идет с 0
 series2 = parse_data('data', 0)
-show_info(series2)
+# show_info(series2)
