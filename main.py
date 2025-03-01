@@ -60,7 +60,7 @@ def show_info(series):
     print(f"Исправленная дисперсия: {sample_variance}")
     print(f"Исправленное СКО: {sample_standard_deviation(sample_variance)}")
     print(f"Мода: {values.mode(series)} ")
-    
+
     print("Итервалы ", len(series))
 
 
