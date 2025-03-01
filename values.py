@@ -5,6 +5,7 @@ def sample_mean(series, n):
     ans = 0
     for key in series.keys():
         ans += key * series[key]
+    print("X*N ", ans)
     return ans / n
 
 # Выборочная дисперсия
