@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "отчёт задание 2"
             }
+          },
+          {
+            "id": "75ca02301ac755db",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,7 +217,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e4d9e869dc4d46ba",
+  "active": "75ca02301ac755db",
   "lastOpenFiles": [
     "Графики/Figure_1.png",
     "Графики/Figure_1.3.png",
