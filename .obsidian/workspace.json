@@ -34,21 +34,9 @@
               "icon": "lucide-file",
               "title": "отчёт задание 2"
             }
-          },
-          {
-            "id": "75ca02301ac755db",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,13 +205,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "75ca02301ac755db",
+  "active": "e4d9e869dc4d46ba",
   "lastOpenFiles": [
+    "отчёт задание 1.md",
+    "отчёт задание 2.md",
     "Графики/Figure_1.png",
     "Графики/Figure_1.3.png",
     "Графики/Figure_1.2.png",
-    "отчёт задание 1.md",
-    "отчёт задание 2.md",
     "values.py~",
     "Figure_1.3.png",
     "Figure_1.png",
@@ -236,7 +224,6 @@
     "__pycache__/values.cpython-311.pyc",
     "__pycache__/graphs.cpython-311.pyc",
     "Графики/photo_2025-03-01_18-57-54.jpg",
-    "Графики",
-    "Графики/photo_2025-03-01_18-57-59.jpg"
+    "Графики"
   ]
 }
